@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            list-style: none;
+        }
+nav{
+    color: white;
+    background-color: gray;
+    height: 50px;
+}
+ul{
+    display: flex;
+    justify-content: end;
+}
+li{
+    padding: 15px;
+}
+li:hover{
+    background-color: blue;
+    color: white;
+}
+h2{
+    position: relative;
+    right: 42%;
+    padding-top: 11px;
+}
+.ruban{
+    background-image: url(https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+height: 700px;
+width: 100%;
+background-size: cover;
+
+}
+.ruban2{
+    color: white;
+    border: 1px solid black;
+    height: 500px;
+    width: 780px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    border: none;
+    text-align: justify;
+}
+.ruban3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+}
+.ruban4{
+    color: black;
+    font-size: 30px;
+    background-color: gray;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    position: relative;
+    right: 180px;
+    top: 50px;
+    border: none;
+}
+.ruban4:hover{
+    background-color: blue;
+    color: white;
+}
+.ruban5{
+    background-color: rgb(179, 179, 147);
+    background-color:rgb(192, 192, 175);
+    height: 300px;
+    width: 40%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 25%;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+}
+.ruban6{
+    background-color: bisque;
+    height: 480px;
+    width: 100%;
+}
+.lansi{
+    border: 1px solid gray;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 85px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 220px;
+}
+select{
+    border: none;
+}
+.parent{
+    border: 1px solid gray;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    background-color: gainsboro;
+    border: none;
+
+}
+p1{
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+
+}
+.child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    justify-content:space-evenly;
+}
+p{
+    text-align: justify;
+    line-height:20px;
+}
+img{
+     float: left;
+    height: 400px;
+    width: 400px;
+}
+.ruban7{
+
+    border: 1px solid black;
+     height: 400px;
+     width: 90%;
+     text-align: justify;
+     position: relative;
+     left: 5%; 
+     border: none; 
+     
+}
+.ruban8{
+     text-indent: 20px;
+     margin-left: 35%;
+     padding: 20px;
+     line-height: 30px;
+}
+.ruban9
+{
+    margin-left: 56%;
+    text-shadow: 2px 2px 3px grey;
+}
+.ruban10{
+    margin-top: 20px;
+    margin-left: 58%;
+    text-shadow: 2px 2px 3px gray;
+}
+hr{
+    width: 60px;    
+    font-weight: bold; 
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+}
+.viji{
+    
+    background-color: blue;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 10px;
+    left: 59%;
+    bottom: 150px;
+    padding: 5px;
+
+}
+.viji:hover{
+    color: black;
+}
+.raj3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 550px;
+    text-shadow: 2px 2px 3px gray;
+}
+.raj4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 570px;
+    text-shadow: 2px 2px 3px gray;
+}
+.parent10{
+            display:flex ;
+            flex-wrap: wrap;
+            margin-left: 10px;
+            justify-content: space-evenly;
+        }
+        .child10{
+        
+            flex-basis: 20%;
+            padding: 50px;
+            padding-left: 20px;
+            text-align: justify;
+        
+        
+        }
+        .img{
+            height: 200px;
+            width: 230px;
+            position: relative;
+            right: 1px;
+            left: 25px;
+        }
+        .ruth{
+          margin-left: 80%;
+        }
+        .san{
+            margin-left: 10px;
+            text-indent: 20px;
+        }
+        .raj5{
+            margin-left: 100px;
+        }
+        .raj9{
+            background-color: cadetblue;
+            height: 1200px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            flex-wrap: wrap;
+            flex-basis: 10%;
+        
+        }
+        input{
+            width: 10%;
+        }
+      .raj10{
+        margin-left: 20px;
+      }
+        .raj11{
+        border: 1px solid black;
+        height: 150px;
+        width: 500px;
+        text-indent: 25px;
+        margin-left: 20px;
+        margin-left: 15%;
+        border: none;
+            
+        }
+        .raj12{
+            flex: display;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+        }
+        .raj13{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            margin-left: 15%;
+        }
+        .raj20 {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin-bottom: 50px;
+        
+            position: absolute;
+            left: 65%;
+            
+        
+            
+
+        }
+        .raj20,.raj9
+        {
+         display: flex;
+         flex-direction: column;
+        }
+        .raj21{
+            font-size: 30px;
+            padding: 10px;
+        }
+        .raj30{
+            position: absolute;
+            left: 40%;
+        }
+        .raj31{
+            border: 1px solid black;
+            background-color: bisque;
+            height: 300px;
+            width: 250px;
+            padding: 10px;
+            margin: 30px;
+            margin-left: 17%;
+            text-align: justify;
+            text-indent: 30px;
+            border: none;
+            
+        }
+        .raj32{
+         display: flex;
+         justify-content: center;
+            position:relative;
+            left: 1px;
+            margin-right: 15%;
+
+        }
+        .raj40{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-self:center;
+            align-items:center;
+        }
+        .raj50{
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            position: relative;
+            bottom: 35px;
+            left: 100px;
+        
+            
+        }
+        
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+       <h2>CARVILLA</h2>
+    <li>HOME</li>
+    <li>SERVICE</li>
+    <li>FEATURED CARS</li>
+    <li>NEW CARS</li>
+    <li>BRANDS</li>
+    <li>CONTACT</li>
+        </ul>
+    </nav>
+    <div class="ruban">
+        <div class="ruban2">
+        <h1>GET YOUR DESIRED CAR IN REASONABLE PRICE</h1>
+<h4 class="ruban3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quaerat quisquam tempora ipsam ad praesentium officiis facere quis doloribus consequatur dolorum cumque recusandae velit, expedita aliquam qui deserunt doloremque earum?</h4>
+<h5 class="ruban4">Contact Us</h5>
+</div>
+    </div>
+
+    <div class="ruban6">
+    <div class="ruban5"> 
+        <label for="">Select Year</label>  <select name="" id=""  >
+             <option value="">2045</option>
+             <option value="">2044</option>
+             <option value="">2043</option>
+             </select> <br>
+        <label for="">Body Style</label>
+    
+        <select name="" id=""  >
+            <option value="">Style</option>
+            <option value="">Sedan</option>
+            <option value="">Van</option>
+            <option value="">Roadster</option>
+        </select> <br>
+        <label for="">Select Make</label> 
+    
+        <select name="" id=""  >
+            <option value="">Make</option>
+            <option value="">Toyoto</option>
+            <option value="">Holden</option>
+            <option value="">Maecedes-benz</option>
+        </select> <br>
+        <label for="">Car Condition</label> 
+    
+        <select name="" id=""  >
+            <option value="">Condition</option>
+            <option value="">Something</option>
+            
+        </select> <br>
+        <label for="">Select Model</label> 
+    
+        <select name="" id="" >
+            <option value="">Model</option>
+            <option value="">Kia-Rio</option>
+            <option value="">Mitsubishi</option>
+            <option value="">Ford</option>
+        </select> <br>
+            <label for="">Select Price</label> 
+    
+            <select name="" id=""  >
+                <option value="">Price</option>
+                <option value="">$0.00</option>
+                <option value="">$0.00</option>
+            </select> <br> <br>
+        
+        <h3 class="lansi"> <i class="fa-solid fa-magnifying-glass"></i>  Search</h3>
+    </form>
+</div>
+    </div>
+    <div class="child">
+        <div class="parent"><br>
+        <i class="fa-solid fa-car" style="font-size: 30px;padding-left: 40%; " ></i><br> <br>
+                <p1 > Largest Dealership of Cars</p1> <br>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea dignissimos cumque facilis, doloremque enim ex voluptatibus ipsa, porro earum nam consequuntur! Adipisci voluptatibus itaque expedita doloribus, maiores porro dolore.</p>
+        
+        </div>
+        <div class="parent"><br>
+        <i class="fa-solid fa-car-tunnel"style="font-size: 30px;padding-left: 40%; " ></i><br> <br>
+                <p1 >   Unlimited Repair Warrantly</p1> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea dignissimos cumque facilis, doloremque enim ex voluptatibus ipsa, porro earum nam consequuntur! Adipisci voluptatibus itaque expedita doloribus, maiores porro dolore.</p>
+        
+        </div>
+        <div class="parent"><br>
+        <i class="fa-solid fa-car-burst" style="font-size: 30px;padding-left: 40%; " ></i><br> <br>
+                <p1 >   Insurance Support</p1> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea dignissimos cumque facilis, doloremque enim ex voluptatibus ipsa, porro earum nam consequuntur! Adipisci voluptatibus itaque expedita doloribus, maiores porro dolore.</p>
+        
+        </div>
+        </div> <br><br>
+        <div class="ruban7">
+            <img src="https://img.freepik.com/free-photo/view-3d-car_23-2150796894.jpg?size=626&ext=jpg" alt="">
+            <h4 class="ruban10">Checkout the Latest Cars</h4><br><br>
+            <h1 class="ruban9">NEWEST CARS</h1>
+            <hr>
+            <p class="ruban8">Lorem, ipsum dolor sit amet  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, modi provident veritatis fugit sit, tempora explicabo reprehenderit nisi similique minima vitae atque sunt esse, blanditiis ex. Et, ipsam unde? Nulla iure quae sit sapiente error cum dolore ipsa, eos officiis corporis molestias natus soluta dolores nostrum. Reiciendis animi et dignissimos! consectetur adipisicing elit. Unde, obcaecati quis quisquam dolorum provident voluptate minima? Autem, voluptatem tenetur soluta dolorum sint, praesentium voluptatibus voluptas rem possimus at laboriosam ut temporibus expedita nostrum aut? Veritatis sit ex totam atque, blanditiis facilis laudantium hic inventore sunt veniam repellat ullam vero est qui aspernatur cum alias quis ipsam aperiam molestias, quam tempora fugit at asperiores. Tenetur similique, repellendus ipsum molestiae vel ipsam quasi corporis voluptatibus tempora sapiente consectetur neque, dicta perspiciatis iusto! Culpa eius quod illo? </p>
+          
+        </div>
+        <h2 class="viji">View Details</h2> <br><br> <br> <br> <br>
+        <div class="bose">
+            <h4 class="raj4">Checkout the Featured Cars</h4> <br><br>
+            <h2 class="raj3">Featured Cars</h2> <br> <br> <br> <hr style="width: 50px; position: relative;
+            left: 47%;"><br>
+    </div> 
+    <div class="parent10">
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/premium-psd/car-cute-sticker-isolated-transparent-background_995817-8105.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid"  alt="" height="200px " width="200px">
+           
+            <h2 class="ruth">Toyota</h2>
+         <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+          <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+          <li style="font-size:10px ;">240HP</li> 
+         </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/premium-photo/3d-luxury-sedan-sticker-white-background_1248922-1469.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="" height="200px" width="200px" >     
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ; ">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/free-psd/yellow-isolated-car_23-2151852892.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/free-psd/white-isolated-car_23-2151852876.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybridalt="">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/free-vector/black-convertible-car_53876-64027.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="" height="200px" width="200px">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/free-psd/modern-car-isolated_23-2151504488.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="" height="200px" width="200px">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExMWFRUVGBUWFRcYFxcVGRUVGBUXFxUXFhUYHiggGB0lHRUXITEhJSkrLi4uFx8zPTMsNygtLisBCgoKDQ0OGA8QGCsgHyUrLTctNy0tNS0rNysrLS0tNy0rKyssNzguLS0rLS0tLSsrKysrLSsrLTcrKy4rKzcuK//AABEIAKgBLAMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcDBAUCCAH/xABKEAACAQIDBAcDBwoEAwkAAAABAgMAEQQSIQUGMUEHEyJRYXGBMpGhQlKCkrHB0RQjM0NTVGJyorIVFkTwJHODNGOEk6PC0uHi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8AvGlKUClKUClKUClKUClKUCleHmUcWA8yBWrJtaBeMq++/wBlBu0rmrt7DEgdaovwzXUHyZgBXRBoP2lKUClKUClKUClKUClKUClKUClKUClKUClKUClKUClKUClKUClKUClKUClKxzSWFB7JrUfFtyS3izAetlv8bVoYrEyHnby0+PH41Ft5Md1aEsbtyvdrcr24nWwCjUkgaakBIsft5E0bERIeFgVBvYkDtFiTYHlyrhYzerD85pH8Ak1vf2FNcHYuyGdTM6kOxYAMQSovZrkaFiVuSOQUCwAFe8Vshu77KDLNvdhR+qmPiUhPr2mNYI9+oLAiCYA6j9CDblpUa2hhb9gcXYJ6E9ojyFz6VtYjZDhc2U5e/lxtQTLZG9GGxDBFYq54JKqjN4Bl0v8A7say75Y2TDYNsRACGRlBF+yoLWOePgRcjhY63vVaSYUg3GhHDwq1N3cUuLwuWXXrFaGYd7AWJ8ypB91BAD0ry/u0f13rwelmb92i+u9cbam7UkcrxZCzRsVNgTfuPkRY+tcnHbEkjALIQDoPOgmC9Lcv7vH9d6zx9Lkn7BfSRh91VrJhbVhMdgeN+Wmlud/hQW3F0utzhPpL+K1sJ0pRt7ULjyl/ACqk2bgGmYqrgEC9mvqPC16z7S2bJAqszBrkjS+mlxx9fdQXLgukqAHhMB3Ehx72JPxrsxdI+EPJx5j7LXqmdwcXEcUIp0R0mGVc6hsr8UIvwvqvqKszE7p4VuEZQ96MVt6aj4UE42LvHhsUAYpBm5oey481/CutVF7W2Q+EdCr9YGJyAAiQEW4ZePEajv4VKN1ukAiyYgll4Z/lL/OOfnQWZSseHnV1DIwZTqCNQayUClKUClKUClKUClKUClKUClKUClKUClKUH4TUbwG80E0skZcK2a0eY2DqABoTzvc24610d41laFo4rB5Ozc/JU+0fHTT1qF4fo2zayzMf5QAD7/xoJftEiNC7cuXeTwAv/vnUFwELYkyY06xxErhgeEuI9hZLfNViFXxJOjXv3sXuSBh3jR5WGU2RpXKnSxCgtZCRcad9uBNVRNtHG4LMiSyhFZSim7IHWQODke4BBW9u+gucbNEaLGvBFCjyAsL+6uftHDZUZvD7dPvqu8F0xYpdJoYZvItE3qRmH9Nd+HpDhxqNGkMkTLlZsxRltqLBgbk371HCgx4DZ/WYpBbREeTyZiEX4O/uqVYvY7PGqKvdfl9tRTCbyYfDNiXaUCUiBETRmyKJHZgnMXcA+VeV6UWHs9Ww7irqfgWoOxNudMeAX6wr3uzA0ErwsLF9QD89NbDzW/uriR9LcgPawoI71kJv5AqKY7fCDEy4SaIOkqTorIwAORzkNjz0JGh568qDvb9YNgFxURtcBJbW1/Zsb+ZHqtQ/bD58Ml/aZv7bgn7PfVrGFXjaN9UcFT5cvUaa+FV9tPdTEIbBesTXKykcOOqk3B94oK/nw1c6bD1OJthT/u0p/wCmxrRm3cxB4Yab6hoI9u7ERiF8Q1/LKf8A6ru7xYTNA45qMw+jqfhevzD7u42NsyYaUGxFyo4HzrNLsnajAgwSWIIPZj4GggILLlZTZlIse5gbqfQgV9D7C2gMTh4pxp1iKxHc3yl9GBHpVSx7kY06fkch9V+3NUr3cj2pgoeqXZ8joGZgLrcZjcgHNwvc+poJVtvY4nCkMY5YzmikHyTzuOYNhcVEto7Cxs0tzBGjgHNKrhUlPIkcb/Rrvx7w4se3svFD+Xq2+1hW1Ht4n2sHi184gf7WNBFt2d6Z8HIY3BABtJE2nqvcfgat/ZG1YsRGJImuDxHMHuI5VVW+KDEIGiw2J65SLHqHXsa5gTax8BxvXO3fxuMwrZxBN/Epiks48dND40F6UqM7F3mWUqixyhi1irrkKDU5+17S6crkc7VJqBSlKBSlKBSlKBSlKBSlKBSlKBWltraK4fDyzsLiJHci9r5VJtfle3Gt2ubvHhEmw0sUnsOpVgNLg8vXh60I4e6W80mMjM7wdSjH81drl0+fawsvdfjx0FryVcWO6o3DIAABoBYADQADgAK9YvM8ZVZGjJtZ0tmFiDpmBGtreRotSRZQeBrzJgo21aNCe8qCffUc2esiMS8ucWsOwE9Tl0J9K6H5T40Rnn3ewr8YUPpb7K577l4K+kAU8ypYffWyMTWlj9qYlWskeeMrqwlCuDrfsldRw4MONBoYzo3wDnMUbN3htfeRXOn6LMGeFx5//krUu2VtORkvKmVr8DYG3InKzD41vDFrzB+2grZuiqK+kgA7gjH7XNbGE6OIoZUmzOwQhgtrLmBuGPE6efKrEE6d/wAK/esU/KFBy4OFqy1sy4TmteeroMFh4fZTqR41my1G979n4llV8NJlyBsyAuma5WxzRkHQA6a8aDvdR3H306g9w+yq+XaW1orEo7ra4KGKVSORGYGQ++vcfSHNGbTRgHuaKWA/1M1/RaCfiEd1eljFR3Z+/cUntIqnuzsT/VGtdeLbsLcv64T/AEiQn4UG71Y7q/SgHyRWNcdGf2nn1UtvrBbfGn+K4e9jNGDzBdQfUE3oMqso+SPdWRZl+aK8LJG3ssp8iD9leuroMnWqe/30FuTEVi6uvzq6DbVz3g/CvYJrQyGv0Ejn8aDez16rQ64/OHvFekxajiy/WFBu0rUh2hG1yrBlUlWYaqGHEZuGnO3DnatugUpSgUpSgUpSgVz9v/oH+j/cK6FcfeTEAII+b/YpB+21BFp8cka5pHVBwuxA17taz4XHJILo6uO9SD9lUx0n7aZsW0Sk5YQEH85AZz8QPo1xt2d5JYJlYNzAPcR3MOYNB9ECY1+GatPB4pZY1kX2XAYevI+I4VkJoM/WV6Elat69A0G4sxr2s5rTDV6DUG8s5rIs9aKtXtmoO3hsVbxHd+FbYs3CoLtjeaHDHKzDNxy5tbeXGtHDdIcV+B+iwJ9xtQWKUryVrh7J3nin0jkBYcVIsw9CLnzrrDFHwoNPGbObVoWyMdSpF43PivyT/EuvfeoltdnaZVnUw2AAJGaNiSc2Qg8ff8m9rWqeLMDx0r1JErAggMDxBAIPmDQitZsNH1TFzHLGMoQsDmAJsSBJa97i3dWjsjZqMjXxERUEKjZgpBtdl0C3t2Tw0v41ZE27+GYEGIWOhCllBHdlUgVrNunhb3yuLcuse3xNBAcTsmWM3SQE+BBI8iOVbmHlxQsS8hUWupYt56MCLe6p9FsaJdFQD0FejsuM8VX3CgiR2ZhcSDFNHGzOD2SBdh3oeIPPvHxqvt69xYMCA8s+IELkhWWJXCnkjkEWNudgDb0q7/8ADI8uUotvAWIPIgjUEd9YsRhUZDh8Solik7ALAENfgkg4Br8G5m3A2uHzbJBs62mMnv44e49wIrTOEwf74T/4R/8A51NekLZUWzp8h2dFJC9zFKGZc1vaVgF0YX9QQfAQqbamDvc4BV8sRMo91qCW9He6uAmaeeV+vhw6ZnHVmKxszXyXLSWCNoLa2413RsHAywMUgwB7UlmWdFAjQRkBmLB1YhpDcjs9XqutV7szeXDQk5MLkva7id3YDX2Q/Z58DxrZw+18IokKzugkUqV6vMQCCGCm9hcG2t7C9B+7zbCwGHlGTEyvE4Z4yuFRuyHdCC7SpfVDrlAIIPOtKH/CFAz/AJa552XDRA+QzMR7zX7jd4opCirhIpFjGSLrGmLBeJusUiqSTc8OJ9B19i7UxwH/AA2y4AD8oYaU3+nI5v76Cyt1McJ9i/8ADl8idfhiHKs4iOZo1Yiy6B0W/wA01Mtw55mwirPbrIyYyQc1woXK2bncEH1qJdEm0pWXGLiYlilEsLMgTqwS6ZQcneRHx56VPhMseoAAJuQAANeJ86Do0pSgUpSgUpSgVG98B+iPiw9+U/caklcveLAmWGyi7KQyjvtoR7ifhQfJ23XMuKmYn2pZTfwzm3wtXQwmGgePqjGFY6pJ8q/iedc3IWmYAHMzsALa3zHS3f4V0xKOpg7IBk64ow45o30B11zC48yKCyejPaBfDtE3tRN8Gve30lb3ipjkqquj/aGTGgX0mRl+kAHH9h99WuJ6Dzkr9y17Eor2CKDEFr1aswWv3JQYlrT29tIYfDyTH9WpIHe3BR6kgVvEVBel3GZcIsY/WSAH+VQWPxy0FP7Rx8krs7sWZiSSeZNa6TsOBI9aQwPI2VFLMToB4kAXPIXI1PfXWXd4gdtxfXQcAQbDXnQZdibwSI63Ygggqw0KnlV+7o7fGKhDGwkWyyAd9tGHgfxHKvnuXYlvZN/I30t+NS7o724YJ0DnR7RyeTHssfI2+NBegesiy1pB69Z6DLitp5O0zhRwuSFHxrU/zEvKWM/SU/fVV9J+M63FiHrRGsUebUsAWPasMoOpBA1sOzxqCmN7jKztm0Wxa5PCwF9eI86D6SXbpPAofd9xr3/jTdy/H8arHa3RVioYI5I8WM9l65JJOrVWPzJDoRfSx878q6uydwMUYUI2jOhIuVVo3QNzCsLgi/OgnY20fmj415k2sGBVkBBFiDwIqHtuLtAcNqTescZqObybL29g7ypOcTENTliQso/jjy5iPFSfG1BJtsb4SJMuFlw6TRZo+2zMHCk8bjiwBIvzt413zDhP2A+s1ULit9cRKQ7RxlrAZgrgG2oNr/fWy3SRj/8Auh/0m+9qC7+qwn7unvNeg2HHCFR9JvxqiX6Q9ofOQeUQ+9q15N/toH9cB5RxffQfQIxsY4Rr72P30O0U/ZR/Vv8AbXzud98ef9Ufqwj7BWNt7ccf9VJ6Mo/tWguHb21HbHYdYssQS0k5UBcwTM0ase4dr/zK1dtb7RAhEkE7k2yo4Kj+ZhcD4nwqJdH2EkxTl8TeeO9isnaDHvN1BNtLeXhUu6SNiYcfkZw8cakTgSFUCt2lygEgagZQLeNBcdKUoFKUoFKUoFKUoPj5p+rxUjlc2SaUleF+2QRfkdTY8jY1MpDEyPOqr1MIadZBmckynK4jjy/mnurAgsVVpM3IVk6Sdy48FjoyGaSPFtPJk7KENmBMYkJsATIozG1vGsAZZ4nRJSI5laGwVY47wqSpw6DtCIF3JzElgrk62oIouNaGRWQ2ZGVlP8S6j7LetXGm8WGIU/lMQzAMAbLxF+/7qpDE5DNZz2M3a1toPHl3X8a2JMBG+quoHIWNveL0F6w40NqrI48GH32rYXEH5reguPeKoPD7OkXWM+qML/A3roQ7Zx0PCaQW5N2v7waC7kxq99bC4rxqnsP0g41fbCSD+JT9tyPhXTwvSTGf0uGt4o33ArQWgZr1WXTNL/2Yf80+v5sV1cJvzgW/WSRn+IGw+Fv6qjvSHtCKVsK8ciyBROcykHW8WW9iba0EahxAw0fVpbrG1kYG9+ar5D4m57q0lMkhPFrcTyHmTovrX5hIDLIFLBbnVmIUKOZLHQd2vMisG11lDmJ0KFdBHY9k+Xyifnc/K1B1W2XiUucjdk2bKVfKbXswQm2muteExN+PHv767W+kBSOVhdT+WRWI0Ivg1a4PLjXGQmXMDrIgLlrfpEHtFraZl435i99R2gvXdTan5RhYpCbtlyv/ADr2W99r+tdYtVadFO0v02HJ7pV9bK//ALPfVgmagprfLFk47EEH5WX0HD7B7qmnRHugZHXHTraKPWAN+scfrP5F4jvbXlr2Nm/kkOdMfhlkBleWKVo1lUZgoIUnh7N7Dv1tXRx+1JccOrhBgwa6SSMLZgNMoA5fwj1twoMW3ZjtOfqUNsLEbyPyYjmO/mF9T3V3Y3VVVIwFjQBUUaAKBYfZXMhljVBFCMsa+9zzZjzP+/LOr0HSXFEczWritpOTYNa3dp8a15JbC9aJkoK03y6PsQ+JaXBw9akt3ZVyZo3Pt6MRdSdRbhcjSwvwh0b7VP8AopP/AER9rVdKzV6bFHmx99B8+bQ2G0DtFNJFHIlg6HMxU2BsckTC9iOBNa64eLniE9FlPw6kVKMds2DEYnFSSSlWOIZI0DKpktGXsGYEAnKFBJAuw48KzDAYODOkOPfMy2DLiIUUvY5QwycO0PlWAJ7XEKETeGEA2nYnu6txr5lh9lSfcrcQ4+JpvyqOJUkMZVg5Y2VGJADWtZ7eYNZ5dnbIuzNiTKxcZs0hJK3UuQVy5yQSb663GlrjudHWMgjixIR/zf5VL1d76x5IwntAHhbjrQTvY+ysPgoRHE2dgLAgHjzYk8TxrTx2HMrQqP3jDH6InTN/TmrWk2zF869drc8NPMJFHYjN2YjQmxAUd51B8PdQT6lKUClKUClKUClKUFa9O2zC+CjxCjXDSgt4Rydhv6urPpVP4qZAsDo4XqesfKL5s5NwLd19SeBF++1fT218Cs8MkLrmSRWRhwuGFjY8j418r7z7s4zCSyRNBMyKxCSiN8rr8k3Ate3EDnQRrEvc1tbubPOIxcEAv+dljQkclZgGPoLn0rUfCyk/o3+qfwqS7mq2Gk69kbOARHp7N9C3na49TQfR20tzdlTXz4WEE8Sg6pvVo8pNRjaHRjgjfqcXND3KWWVB9FgGP1qhEm9uIPJq1n3jnPzqDo7W6OMQhJSTDYgeBaBz9G+X+qotj9hSR/pcPKniLSL9YXHxroPt2bvNYW21N84++g4JwcPOS3hYg/hWHGqijseAPj5n0rs4jFl/aAbzANcnacYy3AA77aUGHBYoRKWaNZFayOjfKTVmAYaobhCGHAgceFSt1w8uEMjK2Kw8Q7JVgmLwYOmRxwkQHgeA7rDSK4PZ8k69XEhdswsAORU3JPBQMo1NhrUn2HsgQpKuGvi8WVKnqh+YgzKVYPKdJCAzdnUE8tL0HYn2Y2KhZ5OzhDFHmkzxu6NhC8IkGX25pCcgCixVtTcC3N2mi4a1j+S4ZWuqXD4nG5G4vY6Ie4nKL8DcAd9NuhMIcO0TCYJ1fVTJeJ9WMedVNi7RJmyqLEjjrVeb34GTOs/tQyKioyqUVMihWiyEkx5Sp7J4e+g6Ox9pLhcYkgP5u9j/AMpxoT5Blb6NWhPtMcjVLbQWwQH9lB8YY61V2ziFAUStlGgGhsOQ1FBcb7zNHfI5HeBqD5g6GtHGb1yykZ3LAcBoAPJRYVU52tPzkPuX8KDa8/7Q+5fwoLbg2y3fWSXeZl+UKqL/ABzEftT7l/CvI2rMeMh9w/Cgs3F72TNwIA/3xrSfeKb59V620pP2hr3nnP7U6E6B+AFyfIAE+lBOm3gn+ea15tuTH9YagEmIY/Kb3n8axk340EmxEELMWexJ1N2Iv8a8Www+Z77/AH1G7it7ZJgu5nZgqxuyKg7UklrRpmsQgubliOCkcSKDsLPhhyT6t/uraw+24F4XA7ghH3CoiJTWeEX40F2dGe70e0Y3xBdljSUxstu05CIxs17KLOo7+PCrkwmGSNFjjUKiiwA4AVFOiTYxwuy4FYWeUGdhax/OHMobxCZAfKpjQKUpQKUpQKUpQKUpQKGlKDXmwMTe0in0Fc7E7uQN8hR6CuzSghmN3OQ8FHuqO4/c617LVq15aMHiKCjcZuyw5Vx8RsQjlV/T7MjblXJxm7KngKCh5dmkcq5+0MEcjaeNXTjt0u4VH8busRfs0FT7GKXKyZsjDJIFOUlCQePmqngeFfm3ts4nIIFAw8CggQxEhfHrH4yN3k6Gtrb+y3wc9iOy1yvivMeY/CjpHMlvC1xYldNAVJFx3agjvsAKDs71zCCJ2h7DxvhcIjg9pY48OspIPeSQp8Bbma18HtNcS7AFEd9cVE36KaMe3OnzHUXY2IOlxfUH923Es6uvWaPiBLbK4IUQCMD2cua44Xt41x8QUhUonFgASdWI0Nj81bgHKCdRqToAGttnFB5GYCy37I7lGij0UAVxZGrLiJa1iaDr7tYeN5T1q5kVdRci5PDh61KZti4GQACNoz3o5v6hriuFsvC9WmvtHU+HcK3xIe+g2INy8MTriXt3ZFv77/dUl2XuNsjLaRp3a983WKvpYLw/GosmINZkx7Cgtjc7drY+DlE0KMZQCFeRy5W/EqNADbS9r2v3mrAjx8Ti2YEHSx5184xbbkHM1uQ71TrwJoOH0rbknZ2JLRgnCzEtE3EITctCT3jlfiLcSDaD3q18fvZJNE0MyiSNtGVhceBHcRyI1FV/jdinMTFfLyB4j150Hld4Zuq6oiJgBYM0SM6jwci4rlE1tNsyYfIPprWMYKX9m/1T+FBiFWV0T7htjplllW2FiYGQnhKw16pb8R848hccSLa/Rruzs+WQNj2xIa+kQhkWM92eZbmx7hl8zX0ps1YVjVIQixqAEVAAqjkAo4UG1SlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKD8IFYZcIjcQKz0oInvZuXDjIWiccdVYaMjcmX8OdfOu9G7uK2dKVmRgL9iVQQrjlryPgfea+tq8TRKwKsoYHiCAQfMGg+NjtZre23wHxrSlxN/8Af319X4/o52VKSWwUIJ5oOr/stXPPRNsoezAB6lvtoPl2GF3NlUn/AH3139lbDK9phduQ5D8TX0SnRxhF9lQB5Vk/yLCOAoKMXAMeRrMmzG7qu3/JcfdT/J6d1BS67JburKuyG7quP/Ka91P8rL3UFRLsU91Z49hnuq2V3ZHdXtd3B3UFWR7B8K24d3x82rNTd8d1Z02GO6grqDd4fNrp4bYK/NFTlNkDurYTZwFBF8HshRyru4ODLwrophAKyrEKDzExrMK/AK/aBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKD//Z" alt="" height="200px"
+            width="200px">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img  class="img" src="https://img.freepik.com/free-photo/view-3d-car_23-2150796900.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="" height="200px" width="200px">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/free-vector/black-convertible-car_53876-64027.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="" height="200px"width="200px">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/premium-photo/3d-luxury-sedan-sticker-white-background_1248922-1448.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="" height="200px" width="200px">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/premium-psd/car-cute-sticker-isolated-transparent-background_995817-8033.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="" height="200px" width="200px">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+        <div class="child10">
+            <img class="img" src="https://img.freepik.com/premium-photo/3d-luxury-sedan-sticker-white-background_1248922-1464.jpg?size=626&ext=jpg&uid=R124361719&ga=GA1.1.1676034900.1729314220&semt=ais_hybrid" alt="" height="200px" width="200px">
+            <h2 class="ruth">Toyota</h2>
+            <div class="raj8" style="display: flex; flex-wrap:wrap ; justify-content: center ; margin-right: 10px;">
+                <li style="font-size:10px ;">Model:2017</li><li style="font-size:10px ;">3100 Mi</li>
+                <li style="font-size:10px ;">240HP</li> 
+               </div>
+            <h3 class="raj5"> $89,395</h3>
+            <p class="san">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. Sunt, vel sit! Et eveniet molestias nobis, debitis consectetur iure cumque, tempore dolorum consequatur vel neque eaque dolorem, placeat nemo.</p>
+        </div>
+    </div>
+    
+        <h2 class="raj30">What Our Clients Say</h2>
+        
+        <br><br><br><br><br>
+        <div class="raj40">
+        <div class="raj31"> <br><br>
+            <img class="raj50" src="data:image/jpeg;base64,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" alt="" height="100px" 100px>
+           <br> <br> <p4 style="text-align: justify; text-indent: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, explicabo? Dolore consectetur ratione consequatur similique. Assumenda rem laudantium praesentium facilis in aut cum, accusantium, eum quidem cumque perspiciatis voluptates aliquid?</p4>
+             <h2 class="raj32">Romi Rain</h2>
+             <h2 class="raj32">London</h2>       
+        </div>
+        <div class="raj31"> <br><br>
+            <img class="raj50" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExIVFRUWGBcXFRUVFxUVFRYYFRYWFxYXFRcYHSggGRolGxUVITEhJSkrLi4uFyAzODMtNygtLisBCgoKDg0OFQ8PFysdFRkrLSsrKystKzgrKys3Nzc3NysrKy03LTcrKy0rLSstNystNystLSs3KysrKysrKystK//AABEIAN0A5AMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAUDBgcCAQj/xAA+EAABAwEGAwQHBgUEAwAAAAABAAIRAwQFEiExQQZRcSJhgZETMkKhsdHwByNScpLBYqLC4fEUFRYzQ2Oy/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABoRAQEBAQEBAQAAAAAAAAAAAAABERIxAkH/2gAMAwEAAhEDEQA/AO4oiICIiAiIgIiICIsb3oPZK8l6iVbTCprVf7GkNBxOOgbn8Nukq4mthNVfPTBaxar6wjMgO2acTn7+y0E7LXbxv+s4HC+swbOFPA3zxZpidOk+mX0VVxmpftrYZbaHeJxD+aQpt3/aHXpkCvTbUH4m9l3u7J6QEw6dcD16la5cfEVG0txUnyR6zTk9v5m/vor2nUUXWdF5BXpFEREBERAREQEREBERAREQEREBERARF8KDy9yrbdaw0FxIAGZJ2Ui1VYWg8XW5z4Y0wDOXOI7R/YZc+SsZtVl/cR1Kr8LSWU5y2LuojXzXiysrOaWtxUwcyWyKr+r5JYO/385vD9xggVKmbjptHX5f4Wy0bMGiB/dVlqdn4ecTLnOHcJjzkmVZ0rnYDO8akn5q5LVjqhDGu3ndrTyWs266SfBbnbpJ7vr3qrrNCI02k6rReHMJaW5tcNQd/A8j811XhPi+nWpgVnNZVGRBIaHcnN68lodupZ6KsfRwnE0aIsrv9CsHCQZ6ZrOCuUcIcSmi4MqOPonGATn6MnvPs/DXnPUaT5zUrcupCL4CvqiiIiAiIgIiICIiAiIgIiICIiAsdUrIo9pdkgp71tAybu6dO7MnoqG8LG2BAJc86kzImfIbDTMlZ72cTaANsPanLLMnwyE9AvVKtLcZEuMhg5NGRPu15lac6z2SmAABtkplOlK8WVsj65qS1FeX2ZQa9OFYueq63PQVFcCdFXW8AD65qTUdP1kotrpTvHgY+P1CMtftj5Kiyp1us2H6hQIQY29k4dnadeS6zwJeBq2VmIyWEsJ/L6v8pC5LXOS6D9mVfsVWcnNd+oR/Six0FpXtYqZWVZdBERAREQEREBERAREQEREBERAUS1FSioVqKFajxK4tcHAxIw9ZOfuEeKgf6wOJaJyhg2yEYv2Uji6rD6YjMh2HrkP3KreH7MajsTtt/h47rTn+tnsddrWiT35r5Wvmk0kF+nl5qHa7MSey6ANon/KprZcVR5lz8s8gNB8Z8kF1/wAosxMCpJ8VCvC/GEZHyWp26wtpH57rDZqeN0DXYDdE1sdK0dkHY+9eX2hvaz9XyUK8waVKm2cwJPXX4la9/qnVC8N5STsNpKCzt1saSYPvUI1QdFWm7HOGKHkc5A8tVGNmdTORPQouJ1qqLe/su/8AKdoYPe5c4xyCDyXSfsqH3dQ97R5A/NB0mis6j0VIWXQREQEREBERAREQEREBERAREQfCq+2mJKsHKttomQrErQL4dUtYZUplha0uEsnE3Yg+AXq46b2tJY+RJADxIOGRqIKwXE9tmlmQdUqOG/azgAZbfurWhUAdDYAnKMhqq5vtS3hkl7cJaJcZBESBlzPdE5ZKgvG+LbUk0qQazTEYxOHMCZjy8Vub7OHCdtVrN5BtMejG04dQC3lyMDI75TuiucW91pc8lznnlLtfM57q04b9IH43jJgL4OvZ1Ed+Y8VIruc50NEk+JWyXHcLgQHGXntVNwxuw5Enl12QZOMqXYaW5g/hkhaVZq/omExInE6BMkdlgA3Obv1FdGv2yNp0wGiBn4zuVzyvXwP/AITkeqIwWu/a4A7Awu2JfMadrMAHwUA3liOeR5fJWjnB2UrBa7G2Jjxy+iivLqDhmRGJoIkt0cARvyIW7fZ7fNGg0UXuh9R06S0EwGguHMLSRRw5/UJY6Z9JSa3eowd+bhCK/RdBSFGs6krLYiIgIiICIiAiIgIiICIiAiIg+OVbbN1ZOUK0sViVze00DUt9JhADGdr8zmgu/wDqPJTCYeeqsa914qrawcQ+nqIycMx5qBVAnxVYWlK0EiBr4T8VWW263VD2jM6gaeamWYx9ZKTVrCm0uOZhBQ/7TSpumQwDXU+ETCv7qc30QLAYOYJ1PJx+tIWmWhz7VXFJuk9ojZu6zcQ35a6BbRs7CSe6RHLohGy8VPAogncLlVodiLhEhXl/XvWLGio2HR2mg4gHZzHmtOba34tMuaCyoUDq0qQ8uAzhQbJaSDCkVbRKDDWqz3KfwgMdtotI0qg+RJ/ZVeKSr7gSkXW6kSN3HwDXZoruVnUoKLZlKWWxERAREQEREBERAREQEREBERAUeu1SFjqBBrN713Ug7DTc/Fk0NBOZyzjQd6o3+a3Ou1aXVMOIzyJHl/hac69NfBOnUrDe9oLaesk5DvPdCyVDkoFptIBbUPsnTbQwfh7kRd8PXaKFOTm92bjy5NHcJUms/tbLUavElZziKdJ7wMpER4kkTuvlO87a4dmiBO5cxzt9p7ic0UtgBq1Mto6Z/wBitQttmGI5K3td5WimHH0RxkkEwPOB0961p95Pkh7Y8IQj3WpxBR5yXltcOGRleW6Ir7TC337MbBirPrbNbhH5nZ/Ae9aZdlDHWps2c9oPQuAK7hcd206DcFJgY2Zgbk7knNBeUApCx0gsiy2IiICIiAiIgIiICIiAiIgIiIC8vXpeXoIFoWm8R0DTfjHqv9zt/P5rcrQVSXxTa+k8PIAgmT7OHOfBaYrWaDiVCt9LEMJO6+MrFhg6KW17TmSEZYqFMNbA2SvaSzPI9dfrxVpSpNdEZQPNZbRYKMS85cgg0G8reSSTOeevxWvvGIklbdetlpSY06rXK1IAosQhSzyWYDZHZJZ2Fzg0CXEgADcnIBFbLwJdrqtpD47NLtE/xZho88/BdjsLFrfDF1Cz0m0x62ryPacdfl4LbLK3JRYlNC+oijQiIgIiICIiAiIgIiICIiAi+EryXoPaw1XLw+uFDtFpVTXm0VFoHGfEbJ/0zDMkeldsADJb15r5xjxkG4qNndLtHVBo3mGnc9+y5/OarLtV88NCrL6ZAcdQfVPeOR9y0623ZUpHttc3qJB6EZHZbZwNfzbVQa1xirTGF43dhyxjmDlPIlbI5gIiJB8Qhjk1G2OYYMxz2Xm1Xi47rfbdw1Z3mcGEn8Jgfp09y1XiXhtlCm6q2oYHska7mCOQBPgiY1mtUJkqqtLCrEUCTAxEnYSTAzJ6ASsRsYOrieW3xlEUdVymWWk5jTVktLc2fmBEE93dvKsKVhY0yBJ5nNR76tGFkD1ichvlmT7kXXSuD7/ZaaYcDDxAezdp5jmDsVutkrBfmi6bzqWeo2rTdDh5Ebg8wV2zhriSnaaQe10HRzTq08j80abu1y9Kss1rlTGVllrWdF4D16lB9REQEREBERAREQERYbVXaxpc7QIMNorwoFptwaC5xAA1JMAdSuf8T/aSWOLKNHMe1UP9LfmueXxxDaLSZq1C4bNGTB0aMvE5qs66bfX2j0KctpA1ncx2Wfq38AtKvLjC1WjEHPDGHLAwRl3uOfvWpYpU1uQAVRmlZablHDlkYUG7cBWlpqOs7nFjndujUbk5lQDMA7gjY5GF0WzXq6m4UrTDCcmVRlSqePsO7jkuH2a0mnUY8HNpBB6GQu6WK0stNBroDmvaDBzgjPzB37lCJ+RWq34RWqFnsNlvcZ9Y/t4LW7TfVZszVfkMocWjLbswpN0W9zg3V7jOLnlGZPQ7qpa+/Z7dhx16js8B9A38wOKp8Kf6lH4wuoUKuNoinUk9zXe0PHUePJbvdjWMbAGGSXO/M7U/t4L3edjo1WBlZgexzhAJIzGhBBn6hFxxy1W0Nbi2OQ5vPJg36qpvFpawvf8A9j8oGjG/hHfzK6txVY7PZ2SyhSa89kODG4gO5xEgLkvEtoxPw6nJEVIKm3VelSzvFSm7CfcRycNwoDl8BUadd4f+0KjUhtb7p3M5sJ/N7Pit8s9rkAgyNiF+Zw5W90cR2izZUqpDfwHNn6Tp4Ij9GstCkMrrkV0faeMhXpR/FTzH6T8yt6ufiOz2j/qqtcfwzDh1ac0XW1sesig2aopoUafUREBERAREQFT8UVIoO6K4VDxcfuT0SJfH56v181HdVVyrO/B94eqq5VZjLQEnopjFFoNynms9NBlXtixhZGBUZ8EtPRbdwBxE6zxQrE+ifBp1Down2X8gefPrlqzBktm4ZoNqUsJGbXOHg7tePrOy0yQYb7pkVKreTnD3yvtxXoLKTUJLgRBkwG6Zyru9uH69SrUqgNwucXDMzB0kALUbfTqU3FvoWuHfUZHiM0ZbbR43pOa6IxZYQHDMkx4bKbcfpa1WnUe/snMNMz2c8jO+um65aLOQ6cDROYBfkP0mVvF0cR1RSwlh9JoHtaSw7CQ4TOe0jzhFTuOLYH18AMhgz6nP4QtAtlh7TnnMucfATl7lf1nHESSSSTJIMkg5zI5qHaqRI+uSGtNqlYpWeu2CQsDgo0+Y19xryviKzCopFGsQQQSCNCMiOihNWZhRHT+BeKrSHBjqhqN5VO0f1a+9dkslbG0GIlfnzgo/eBd+uz/rb0SkS0RFGhERAREQFQcXD7kq/VNxQ2aJ6JEvj8738O2eqqSFeX82Kp6qCHrTMRadaBBCytrDn5rPK+QOSg+sWemFhYI+oWRpVEykFecL2n0dVzdnCfFsj4OPkqKgVLstXBUY87OE9Dk73Eojrt21sbBmo9+Xd6RvT4de7XwKr7nqOwlrCA5s5OBg65GCCNR/dVPFd5uqYKRpEFjhUFRzjTa09tnZwkicwQcWeJBUWWwspvrhx7TRiwRDsTwMEEiIxOAMclutgu0ejaXNg9kkHbtDVana+HmU6LKja5LpaXQA2XOgZH1jE6OnwUm47+fSpGiGmo6nhaACSwTmBiDTEDnHJBsdouSm86e0/wDmBd8lTW25GNovqfhp4vJpJ+C2iwOeWgvDQ4kE4dPUAVdxF2bPVH/pePIR/Uhjh1qb2isBapVp9YqK5Rp4IXgr2UlB4aDyUinTJXwBZqBzQbjwPZ/vAu8XeIYOi4vwI2Xg9F2uyeqOiU+WZERRoREQEREBV990sVJw7lYLzUZIIQfnLi6yFtQ9VRa5rs/F/C+OXALn9bh17SRh/wArTn41sBfQFdPuR+wWM3NV5IuqsBZWBWLLofuFmF1O5ImoFMqQ5sghTGXU7kpVK7DyQ1ecP2ovax0kExJGEmcIDhDgRrOytL54bqWkQH4Gj1QS587kwTDZ0gCFVcOWZzQWxo6R0dn8cS3+ztxMjMSNdxPJCOVWm4qnpTQaQ92DGTt6zqZp4ZmC9uEE7EdVacM3LVw4nOhsFwBDHsnUQ1wOHwhbKzhmm12NxLn48YqZB2MmcUDKZz0hWN2XeWB3axB2YMDfOcst5yQfLBRe0Fr3BxyMgFuRyG55Kn40q4bNV/Lh/U9gWw2cEwY9hn9XzVHxvZi6zOEZlzR75/pRXEa4zKiuC2apczuSjOuR/IqGtfcF5hX/APsb+SyMuB34UXVAwLPRaVdt4ef+FWNh4WqOMBqJq9+z+icQK7JZh2QtG4SuJ1KJbC3xggJV+XpERRoREQEREBERB4qUg4ZhVtouSm7ZWqIYoHcOMOyxnhpnJbGiupzGtHhlnJfP+Ms5LZkTTmNaHDbeS9jh1vJbEiacxRWe42tOmv181Y0rIApiJpiHVsQcCCNcvNebLYAxobsNPkpyKLiJSsgAA5Ae5Ybwu4VG4Tzn4qxRExrR4ZZyXz/i7OS2ZFdOY1scL0+S9t4ap8gthRNOYo28PUxspdmuljMwFYooZHhlMDRe0RFEREBERB//2Q==" alt="">
+           <br><br> <p4 style="text-align: justify; text-indent: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, explicabo? Dolore consectetur ratione consequatur similique. Assumenda rem laudantium praesentium facilis in aut cum, accusantium, eum quidem cumque perspiciatis voluptates aliquid?</p4>
+             <h2 class="raj32">Romi Rain</h2>
+             <h2 class="raj32">London</h2>       
+        </div>
+        </div>
+    <img  style="margin-left: 35%;" src="https://www.carlogos.org/car-logos/toyota-logo-2005-download.png" alt="" height="100px" width="100px" > 
+      
+    
+    <div class="raj9">
+<h1 class="raj10" style="margin-left: 15%;">CARVILLA</h1>
+<p class="raj11">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit possimus aperiam voluptatum explicabo at vitae iste cum? Rem doloribus asperiores, rerum commodi perspiciatis deleniti. Omnis commodi autem nemo magni ex?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, aperiam. Sequi delectus consequatur doloremque nisi eligendi dolore, blanditiis sit dolorum harum maxime non, aliquam error sapiente excepturi voluptatum molestias impedit.</p>
+ <h3 style="margin-left: 15%;">name@domain.com</h3> 
+ <h3 style="margin-left: 15%;">8056662206</h3>
+ 
+ <ul class="raj13">
+    <section style="font-weight: bold;">TOP BRANDS</section> <br><br><br>
+    <section>BMW</section><br>
+    <section>LAMBORGHINI</section> <br>
+    <section>CAMARO</section><br>
+    <section>AUDI</section><br>
+    <section>INFINITI</section><br>
+    <section>NISSAN</section><br>
+ </ul>
+ <p3 style="margin-left: 15%; font-weight: bold;">NEWS LETTER</p3> 
+ <p style="margin-left: 15%; ">subscribe to get latest news update and information</p>
+ <input style="margin-left: 15%;" type="email" placeholder="Add Email">
+ <div class="raj20">
+    <section style="font-weight: bold;">ABOUT DEVLOON</section><br> <br><br>
+    <section>About us</section><br>
+    <section>Career</section><br>
+    <section>Terms of Service</section><br>
+    <section>Privacy Policy</section><br>
+    <br><br><br><br><br><br><br>
+    <section>Ferrari</section> <br>
+    <section>Porsche</section> <br>
+    <section>Land Rover</section> <br>
+    <section>Aston Martin</section> <br>
+    <section>Mersedes</section> <br>
+    <section>Opel</section><br>
+    <br><br><br><br><br>
+    <div class="raj21">
+    <i class="fa-brands fa-facebook"></i><br><br>
+    <i class="fa-brands fa-instagram"></i><br><br>
+    <i class="fa-brands fa-linkedin"></i><br><br>
+    <i class="fa-brands fa-twitter"></i><br><br>
+    <i class="fa-solid fa-envelope"></i><br><br>
+</div>
+</div>    
+</div>
+   
+   
+</body>
+</html>
